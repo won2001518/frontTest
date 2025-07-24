@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>test22.html(그라데이션 효과)</title>
+  <style>
+    .item{
+      width: 400px;
+      height: 200px;
+      border: 1px solid gray;
+    }
+    #item1{
+      background-color: brown;
+    }
+    #item2{
+      /* background: linear-gradient(to bottom, brown); */
+      background: linear-gradient(to top, rgb(205, 14, 14), rgb(192, 209, 81));
+    }
+    #item3{
+      background: linear-gradient(45deg, #f00, #ff0);
+    }
+    #item4{
+      background: radial-gradient(circle, brown, gray);
+    }
+    #item5{
+      background: radial-gradient(circle, brown, gray);
+    }
+    #item6{
+      background: radial-gradient(at right top, brown, gray);
+    }
+    .thead {
+      background: linear-gradient(to right #f00,#ff0, #fff);
+    }
+
+    table{
+      max-width: 400px;
+      height: 300px;
+      border-collapse:  collapse;
+    }
+    th, td {
+      padding: 20px;
+      text-align: center;
+      border: 1px solid grey;
+    }
+    
+  </style>
+</head>
+<body>
+  <h2>그라데이션효과 연습</h2>
+  <div class="item" id="item1">item1</div>
+  <div class="item" id="item2">item2</div>
+  <div class="item" id="item3">item3</div>
+  <div class="item" id="item4">item4</div>
+  <div class="item" id="item5">item5</div>
+  <div class="item" id="item6">item6</div>
+  <hr/>
+  <table>
+    <tr>
+      <th>01</th>
+      <th>02</th>
+      <th>03</th>
+      <th>04</th>
+    </tr>
+    <tr>
+      <th>11</th>
+      <th>12</th>
+      <th>13</th>
+      <th>14</th>
+    </tr>
+    <tr>
+      <th>21</th>
+      <th>22</th>
+      <th>23</th>
+      <th>24</th>
+    </tr>
+    <tr>
+      <th>31</th>
+      <th>32</th>
+      <th>3</th>
+      <th>4</th>
+    </tr>
+  </table>
+</body>
+</html>

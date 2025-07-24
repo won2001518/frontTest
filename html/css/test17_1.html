@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body{
+      margin: 0px;
+      padding:px;
+    }
+    ul{
+      list-style-type: none;
+      margin: 0px;
+      padding: 0px;
+      width: 20%px;
+      height: 100%;
+      background-color: #f1f1f1;
+      position: sticky;
+      top: 0px;
+
+    }
+    li a{
+      display: block;
+      color: black;
+      padding: 8px 16px;
+      text-decoration: none;
+    
+    }
+    /* li a:hover{
+      background-color: #8e8888;
+    } */
+    li a.active{
+      background-color: blue;
+      color: white;
+    }
+    li a:hover:not(.activs){
+      background-color: #555;
+      color: white;
+    }
+  div.ex1{
+    width: 500px;
+    border: 2px solid gray;
+  }
+  div.ex1{
+    max-width: 500px;
+    border: 2px solid gray;
+  }
+  </style>
+</head>
+<body>
+  <ul>
+    <li><a href="test23_menu3.html#home" class="active">Home</a></li>
+    <li><a href="test23_menu3.html#notico">Notico</a></li>
+    <li><a href="test23_menu3.html#guest">Guest</a></li>
+    <li><a href="test23_menu3.html#board">Board</a></li>
+    <li><a href="test.17_1shtml">test17_1</a></li>
+  </ul>
+    <h1>CSS.max-width</h1>
+    <div class="ex1">이곳의 최대폭은 500px입니다</div>
+    <br/>
+    <div class="ex2">이곳의 최대폭은 500px입니다</div>
+    <hr/>
+</body>
+
+</html>
