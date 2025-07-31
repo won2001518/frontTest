@@ -16,7 +16,7 @@ function regExCheck() {
   const regEx21=/\./g; // '.'을 포함하고 있는가
   const regEx22=/\d/g; // 숫자를 포함하고 있는가
   const regEx23=/\D/g; // 숫자가 아닌 다른값을  포함하고 있는가
-  const regEx24=/\W/g; // 영문자/숫자/_ 값을  포함하고 있는가
+  const regEx24=/\w/g; // 영문자/숫자/_ 값을  포함하고 있는가
   const regEx25=/\s/g; // 공백 값을  포함하고 있는가
 
 
